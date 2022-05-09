@@ -23,7 +23,7 @@ public class CreatAccountPageTest extends TestBase {
     }
 
 
-    @Test(groups = {"sanity"})
+    @Test(groups = {"sanity","regression"})
     public void verifyThatUserShouldCreateAccountSuccessfully() throws InterruptedException {
         homePage.clickOnsignInLinkFiled();
         signInPage.enterEmailForCreatAccount("pahal1234@gmail.com");
